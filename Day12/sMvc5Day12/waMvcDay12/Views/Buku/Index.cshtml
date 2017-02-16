@@ -1,0 +1,51 @@
+﻿@model IEnumerable<waMvcDay12.Models.Buku>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddBuku")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kd_Buku)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nm_Buku)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Jml_Halaman)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kd_Jenis)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kd_Buku)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nm_Buku)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Jml_Halaman)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kd_Jenis)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.BukuID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BukuID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BukuID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBKoperasiBukuModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DBKoperasiBuku.mst.Buku' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Buku">
+    <Key>
+      <PropertyRef Name="BukuID" />
+    </Key>
+    <Property Name="BukuID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Kd_Buku" Type="varchar" MaxLength="5" />
+    <Property Name="Nm_Buku" Type="varchar" MaxLength="15" />
+    <Property Name="Jml_Halaman" Type="int" />
+    <Property Name="Kd_Jenis" Type="varchar" MaxLength="4" />
+  </EntityType>
+  <EntityContainer Name="DBKoperasiBukuModelStoreContainer">
+    <EntitySet Name="Buku" EntityType="Self.Buku" store:Type="Tables" store:Schema="mst">
+      <DefiningQuery>SELECT 
+[Buku].[BukuID] AS [BukuID], 
+[Buku].[Kd_Buku] AS [Kd_Buku], 
+[Buku].[Nm_Buku] AS [Nm_Buku], 
+[Buku].[Jml_Halaman] AS [Jml_Halaman], 
+[Buku].[Kd_Jenis] AS [Kd_Jenis]
+FROM [mst].[Buku] AS [Buku]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

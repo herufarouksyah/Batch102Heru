@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBKoperasiBukuModelStoreContainer" CdmEntityContainer="DBKoperasiBukuEntities">
+    <EntitySetMapping Name="Buku">
+      <EntityTypeMapping TypeName="DBKoperasiBukuModel.Buku">
+        <MappingFragment StoreEntitySet="Buku">
+          <ScalarProperty Name="BukuID" ColumnName="BukuID" />
+          <ScalarProperty Name="Kd_Buku" ColumnName="Kd_Buku" />
+          <ScalarProperty Name="Nm_Buku" ColumnName="Nm_Buku" />
+          <ScalarProperty Name="Jml_Halaman" ColumnName="Jml_Halaman" />
+          <ScalarProperty Name="Kd_Jenis" ColumnName="Kd_Jenis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
