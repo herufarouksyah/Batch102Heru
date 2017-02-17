@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 11.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ssDBKoperasiBuku", "ssDBKoperasiBuku\ssDBKoperasiBuku.ssmssqlproj", "{BFBD592D-8E09-42F7-B3AF-60861E3ADE88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3E8D9BE-1BC5-43CC-88A9-119473F0B1F5}.Default|Default.ActiveCfg = Default
+		{BFBD592D-8E09-42F7-B3AF-60861E3ADE88}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\obj\Debug\clMvc5Day13.Model.csprojResolveAssemblyReference.cache
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\bin\Debug\clMvc5Day13.Model.dll.config
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\bin\Debug\clMvc5Day13.Model.dll
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\bin\Debug\clMvc5Day13.Model.pdb
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\bin\Debug\EntityFramework.dll
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\bin\Debug\EntityFramework.xml
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\obj\Debug\clMvc5Day13.Model.dll
+C:\Batch102\Heru\Day13\sMvc5Day13\clMvc5Day13.Model\obj\Debug\clMvc5Day13.Model.pdb
